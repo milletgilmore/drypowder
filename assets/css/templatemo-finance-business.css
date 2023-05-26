@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #2C81E5;
+	background-color: #1454b4;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -46,7 +46,7 @@ a.filled-button {
 
 a.filled-button:hover {
 	background-color: #fff;
-	color: #2C81E5;
+	color: #1454b4;
 }
 
 a.border-button {
@@ -64,7 +64,7 @@ a.border-button {
 
 a.border-button:hover {
 	background-color: #fff;
-	color: #2C81E5;
+	color: #1454b4;
 }
 
 .section-heading {
@@ -80,7 +80,7 @@ a.border-button:hover {
 
 .section-heading em {
 	font-style: normal;
-	color: #2C81E5;
+	color: #1454b4;
 }
 
 .section-heading span {
@@ -94,7 +94,7 @@ a.border-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #2C81E5;
+  background: #1454b4;
   left: 0;
   right: 0;
   top: 0;
@@ -174,7 +174,7 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #2C81E5;
+	background-color: #1454b4;
 	height: 46px;
 	line-height: 46px;
 }
@@ -255,7 +255,7 @@ header .navbar {
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
-	color: #2C81E5!important;
+	color: #1454b4!important;
 }
 .background-header .navbar-nav a.nav-link {
 	color: #1e1e1e!important;
@@ -265,7 +265,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #2C81E5!important;
+	color: #1454b4!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -273,7 +273,7 @@ header .navbar {
 	outline: none;
 }
 .navbar .navbar-brand h2 {
-	color: #fff;
+	color: #1454b4;
 	text-transform: uppercase;
 	font-size: 24px;
 	font-weight: 700;
@@ -300,7 +300,7 @@ header .navbar {
 	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
-	color: #fff;
+	color: #1454b4;
 	transition: all 0.5s;
 	margin-top: 5px;
 }
@@ -309,8 +309,8 @@ header .navbar {
 .navbar .navbar-nav .nav-link.current,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #2C81E5;
-	border-bottom: 3px solid #2C81E5;
+	color: #1454b4;
+	border-bottom: 3px solid #1454b4;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -325,7 +325,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #2C81E5;
+	color: #1454b4;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -453,7 +453,7 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color:#2C81E5;
+  color:#1454b4;
   animation:fadeOutRight 1s both;
 }
 
@@ -520,7 +520,7 @@ ul.slick-dots {
 /* Request Form */
 
 .request-form {
-	background-color: #2C81E5;
+	background-color: #1454b4;
 	padding: 40px 0px;
 	color: #fff;
 }
@@ -549,6 +549,7 @@ ul.slick-dots {
 
 .services {
 	margin-top: 140px;
+	margin-bottom: 40px;
 }
 
 .service-item img {
@@ -577,20 +578,18 @@ ul.slick-dots {
 /* Fun Facts */
 
 .fun-facts {
-	margin-top: 140px;
-	background-image: url(../images/fun-facts-bg.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	padding: 140px 0px;
-	color: #fff;
+	padding: 120px 0px 40px 0px;
+	color: black;
 }
 
 .fun-facts span {
 	text-transform: uppercase;
 	font-size: 15px;
-	color: #fff;
+	color: black;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
 	display: block;
@@ -604,11 +603,15 @@ ul.slick-dots {
 
 .fun-facts em {
 	font-style: normal;
-	color: #2C81E5;
+	color: #1454b4;
 }
 
 .fun-facts p {
-	color: #fff;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.fun-facts p + p{
 	margin-bottom: 40px;
 }
 
@@ -618,21 +621,24 @@ ul.slick-dots {
 
 .count-area-content {
 	text-align: center;
-	background-color: rgba(250,250,250,0.1);
 	padding: 25px 30px 35px 30px;
 	margin: 15px 0px;
+	background-color: #F1C673;
+	border-radius: 25px;
+	
 }
 
 .count-digit {
     margin: 5px 0px;
-    color: #2C81E5;
+    color: white;
     font-weight: 700;
     font-size: 36px;
+	text-shadow: 1px 1px 1px gray;
 }
 .count-title {
     font-size: 20px;
     font-weight: 600;
-    color: #fff;
+    color: black;
     letter-spacing: 0.5px;
 }
 
@@ -683,7 +689,7 @@ ul.slick-dots {
 
 .more-info .right-content em {
 	font-style: normal;
-	color: #2C81E5;
+	color: #1454b4;
 }
 
 .more-info .right-content p {
@@ -724,7 +730,7 @@ ul.slick-dots {
 	margin-top: 8px;
 	font-weight: 600;
 	font-size: 14px;
-	color: #2C81E5;
+	color: #1454b4;
 }
 .testimonial-item img {
 	max-width: 60px;
@@ -757,7 +763,7 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form {
-	background-color: #2C81E5;
+	background-color: #1454b4;
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
@@ -833,11 +839,11 @@ ul.slick-dots {
 
 .callback-form .contact-form button.border-button:hover {
 	background-color: #fff;
-	color: #2C81E5;
+	color: #1454b4;
 }
 
 .contact-us .contact-form button.filled-button {
-	background-color: #2C81E5;
+	background-color: #1454b4;
 	color: #fff;
 	border: none;
 	font-size: 13px;
@@ -855,7 +861,7 @@ ul.slick-dots {
 
 .contact-us .contact-form button.filled-button:hover {
 	background-color: #fff;
-	color: #2C81E5;
+	color: #1454b4;
 }
 
 
@@ -929,7 +935,7 @@ footer ul.social-icons li a {
 }
 
 footer ul.social-icons li a:hover {
-	background-color: #2C81E5;
+	background-color: #1454b4;
 }
 
 footer ul.menu-list li {
@@ -947,7 +953,7 @@ footer ul.menu-list li a {
 }
 
 footer ul.menu-list li a:hover {
-	color: #2C81E5;
+	color: #1454b4;
 }
 
 footer .contact-form input {
@@ -1008,7 +1014,7 @@ footer .contact-form ::placeholder {
 footer .contact-form button.filled-button {
 	background-color: transparent;
 	color: #fff;
-	background-color: #2C81E5;
+	background-color: #1454b4;
 	border: none;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -1025,7 +1031,7 @@ footer .contact-form button.filled-button {
 
 footer .contact-form button.filled-button:hover {
 	background-color: #fff;
-	color: #2C81E5;
+	color: #1454b4;
 }
 
 
@@ -1103,7 +1109,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .team-item .down-content span {
-	color: #2C81E5;
+	color: #1454b4;
 	font-weight: 600;
 	font-size: 14px;
 	display: block;
@@ -1138,7 +1144,7 @@ footer .contact-form button.filled-button:hover {
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
-	background-color: #2C81E5;
+	background-color: #1454b4;
   	font-size: 20px;
   	color: #121212;
   	letter-spacing: 0.5px;
@@ -1199,7 +1205,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .contact-information .contact-item i {
-	color: #2C81E5;
+	color: #1454b4;
 	font-size: 48px;
 	margin-bottom: 40px;
 }
@@ -1217,7 +1223,7 @@ footer .contact-form button.filled-button:hover {
 
 .contact-information .contact-item a {
 	font-weight: 600;
-	color: #2C81E5;
+	color: #1454b4;
 	font-size: 15px;
 }
 
@@ -1331,7 +1337,7 @@ footer .contact-form button.filled-button:hover {
 	.navbar .navbar-nav .nav-link.current,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #2C81E5!important;
+		color: #1454b4!important;
 		border-bottom: none!important;
 	}
 }
