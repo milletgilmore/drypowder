@@ -646,7 +646,12 @@ ul.slick-dots {
     letter-spacing: 0.5px;
 }
 
+/* Video Demo */
 
+#demo video{
+	width: 100%;
+	padding: 5%;
+}
 
 /* More Info */
 
